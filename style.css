@@ -7,8 +7,9 @@ header h1{
     display: inline-block;
     position: absolute;
     color: white;
-    margin-left: 37%;
-    margin-top: 21%;
+    margin-top: 20%;
+    margin-left: 36%;
+    text-align: center;
     font-size: 49px;
 }
 header img{
@@ -41,31 +42,35 @@ footer{
     display: block;
 }
 footer img {
-    width: 73%;
+    width: 83%;
     float: left;
-    margin-left: 15%;
+    margin-left: 10%;
     display: flex;
 }
-footer h5:first-child{
-    color: green;
+footer h5[href*="#4"]{
+    color: aqua;
     margin-top: 10%;
     margin-bottom: 5%;
-    margin-left: 14%;
+    margin-left: 10%;
+    font-size: 20px;
 }
 footer h5{
     color: black;
     margin-top: 10%;
     margin-bottom: 5%;
-    margin-left: 14%;
+    margin-left: 10%;
+    font-size: 20px;
 }
-footer h5:last-child{
-    color: aqua;
+footer h5[href*="#5"]{
+    color: green;
     margin-top: 10%;
     margin-bottom: 5%;
-    margin-left: 14%;
+    margin-left: 10%;
+    font-size: 20px;
 }
 footer p{
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: 5%;
     margin-top: 5%;
     display: inline-block;
 }
@@ -76,40 +81,40 @@ footer section{
 }
 footer section h4{
     width: 100%;
-    margin-left: 12%;
+    margin-left: 26%;
     margin-top: 11%;
-    font-size: 14px;
+    font-size: 18px;
 }
 footer section a[href*="#1"]{
     background-color: green;
-    width: 19%;
+    width: 20%;
     height: 40px;
     border-radius: 41%;
     display: inline-block;
     margin-top: 8%;
-    margin-left: 14%;
+    margin-left: 10%;
     color: white;
     text-decoration: none;
 }
 footer section a[href*="#2"]{
     background-color: black;
-    width: 19%;
+    width: 20%;
     height: 40px;
     border-radius: 41%;
     display: inline-block;
     margin-top: 8%;
-    margin-left: 14%;
+    margin-left: 10%;
     color: white;
     text-decoration: none;
 }
 footer section a[href*="#3"]{
     background-color: aqua;
-    width: 19%;
+    width: 20%;
     height: 40px;
     border-radius: 41%;
     display: inline-block;
     margin-top: 8%;
-    margin-left: 14%;
+    margin-left: 10%;
     color: white;
     text-decoration: none;
 }
